@@ -1,0 +1,40 @@
+h2 {
+   color: var(--c2);
+}
+
+section{
+    margin: 40px 0px;
+}
+
+.notice{
+    width: 100%;
+    height: 500px;
+    background-color: var(--backgroundc1);
+}
+.projects>.carrousel {
+    max-width: 100%;
+    overflow-x: scroll;
+    max-height: 300px;
+    overflow-y: hidden;
+    
+}
+.carrousel_container{
+    width: calc(240px*8);
+}
+
+.projects>.carrousel::-webkit-scrollbar{
+    color: blue;
+    /*
+    Va Las modificaciones al escrollbar
+    */
+}
+.carrousel_container>div{
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+    background-color: var(--backgroundc2);
+
+}
+.carrousel_card_title{
+    text-align: center;
+}

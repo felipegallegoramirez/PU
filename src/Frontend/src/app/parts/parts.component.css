@@ -1,0 +1,78 @@
+
+.izq{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+    display: inline-block;
+}
+.izq > button{
+    margin: 10px 0px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: var(--c1);
+    color: var(--white);
+    height: 30px;
+}
+.der{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+    display: inline-block;
+}
+
+.der> div{
+    background-color:var(--backgroundc1) ;
+    color: var(--white);
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.der>.der_h2{
+    text-align: center;
+}
+
+.der .der_teacher{
+    background-color:white ;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+.der .der_teacher>div{
+    background-color:var(--backgroundc1) ;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px 5px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.der_teacher_m{
+    width: calc(30% - 10px);
+}
+.der_teacher_t{
+    width: calc(70% - 10px);
+}
+
+.der .der_dates{
+    background-color:white ;
+    box-sizing: border-box;
+    padding: 0px;
+    vertical-align: super;
+    display: flex;
+}
+
+.der .der_dates>div{
+    background-color:var(--backgroundc1) ;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px 5px;
+    display: inline-block;
+    border-radius: 20px;
+    width: calc(100%/3);
+}
+
+.container{
+        display: flex;
+}
