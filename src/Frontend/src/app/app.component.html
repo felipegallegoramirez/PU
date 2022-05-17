@@ -1,3 +1,47 @@
-<router-outlet>
-  
-</router-outlet>
+<nav>
+  <div class="nav_logo">
+    <img src="../assets/logo.svg" alt="">
+  </div>
+  <div class="nav_pages">
+    <ul>
+      <li><a routerLink="/home">Crear</a></li>
+      <li><a href="">Buscar</a></li>
+      <li><a href="">Login</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="body">
+  <router-outlet ></router-outlet>
+</div>
+
+<footer>
+  <div class="footer_principal">
+    <div class="footer_principal-div">
+      <h3>SOMOS DIFERENTES,</h3>
+      <h3>SOMOS POLI.</h3>
+    </div>
+    <div class="divisor"></div>
+    <h1>POLI.EDU.CO</h1>
+  </div>
+  <div class="footer_directions">
+    <p>Sede Bogotá: calle 57 3 - 00 Este</p>
+    <p>Sede Medellín: carrera 74 52 - 20, barrio Los Colores</p>
+    <p>Línea nacional: 01 8000 180 779</p>
+
+  </div>
+  <div class="footer_socialmedia">
+    <h4>Siguenos</h4>
+    <div class="footer_socialmedia-div">
+      <div><img src="" alt=""></div>
+      <div><img src="" alt=""></div>
+      <div><img src="" alt=""></div>
+      <div><img src="" alt=""></div>
+      <div><img src="" alt=""></div>
+    </div>
+  </div>
+  <div class="footer_CPY">
+    <p> Copyright &#169; 2022. Todos los derechos reservados</p>
+  </div>
+
+</footer>

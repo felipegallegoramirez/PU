@@ -1,0 +1,131 @@
+.searcher{
+    width: 100%;
+}
+
+.searcher>div{
+    display: inline-block;
+}
+
+.searcher__form{
+    width: calc(100% - 150px);
+}
+
+.searcher>div>input[type=text]{
+    border: none;
+    min-width: 100px;
+    width: calc(100% - 500px);
+    border-bottom: 2px solid var(--c1);
+} 
+
+.searcher>div>input[type=text]:focus{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid var(--c2);
+} 
+
+.searcher>div>input[type=text]::placeholder{
+color: var(--c2);
+
+} 
+
+select{
+    background-color: var(--c1);
+    border-radius: 20px;
+    color: var(--white);
+    height: 30px;
+    width: 150px;
+}
+
+option{
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.searcher>div>input[type=date]{
+    width: 150px;
+    border-radius: 20px;
+    background-color: var(--c1);
+    color: var(--white);
+    height: 30px;
+} 
+
+.searcher__button>button{
+    width: 150px;
+    border-radius: 20px;
+    background-color: var(--c1);
+    color: var(--white);
+    height: 30px;
+}
+
+.card{
+    width: 100%;
+    margin-top:20px ;
+}
+.card *{
+    vertical-align: top;
+}
+.card>div{
+display: inline-block;
+}
+.card_principal{
+    max-width: 70%;
+}
+.card_principal>div{
+    display: inline-block;
+}
+.card_principal_img{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin-top: 0px;
+
+}
+.card_principal_text{
+    width: calc(100% - 210px);
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+.card_secondary{
+    width: calc(30% - 10px);
+}
+.card_divisor{
+height: 200px;
+width: 2px;
+margin: 0px 4px;
+background-color: var(--c1);
+}
+
+.card_principal_text_inf {
+    text-align: end;
+}
+
+.card_principal_text_inf p{
+    display: inline-block;
+    margin: 0px 20px;
+    color: var(--gray);
+}
+
+.card_secondary>{
+    display: inline-block;
+    
+}
+.card_secondary div{
+    display: inline-block;
+}
+.card_secondary_participants{
+    box-sizing: border-box;
+    padding: 10px;
+    width: calc(100% - 40px);
+}
+.card_secondary_button{
+}
+.card_secondary_button button{
+    width: 40px;
+    border-radius: 20px;
+    background-color: var(--c1);
+    color: var(--white);
+    height: 200px;
+}
+section{
+    margin: 30px 0px;
+}
